@@ -72,13 +72,24 @@ This repo is setup to begin working immediately with AirBNB code style rules, us
 
 ```console
   eslint --init
-  ~? How would you like to configure ESLint? > Use a popular style guide
-  ~? Which style guide do you want to follow? > Airbnb
-  ~? Do you use React? > Yes
-  ~? What format do you want your config file to be in? > JSON
+  ~? How would you like to use ESLint? · style✔
+  ~? What type of modules does your project use? · commonjs✔
+  ~? Which framework does your project use? · react✔
+  ~? Does your project use TypeScript? · No✔
+  ~? Where does your code run? · node✔
+  ~? How would you like to define a style for your project? · guide✔
+  ~? Which style guide do you want to follow? · airbnb✔
+  ~? What format do you want your config file to be in? · JSON
+
+  || You'll have different prompts
+
+  ~? How would you like to configure ESLint? > Use a popular style guide✔
+  ~? Which style guide do you want to follow? > Airbnb✔
+  ~? Do you use React? > Yes✔
+  ~? What format do you want your config file to be in? > JSON✔
   Checking peerDependencies of eslint-config-airbnb@latest
   ~? The style guide "airbnb" requires eslint@^5.16.0 || ^6.8.0 || ^7.2.0. You are currently using eslint@4.19.1.
-  Do you want to upgrade? > Yes
+  Do you want to upgrade? > Yes✔
   Installing eslint-config-airbnb@latest....etc.....
 ```
 

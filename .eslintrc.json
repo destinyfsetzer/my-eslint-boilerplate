@@ -7,6 +7,7 @@
     "no-console": "warn",
     "func-names": "off",
     "object-shorthand": "warn",
-    "class-methods-use-this": "warn"
+    "class-methods-use-this": "warn",
+    "no-return-assign": "off"
   }
 }
